@@ -1,4 +1,13 @@
-<h1>User list</h1>
+<!doctype html>
+<html lang="en-us">
+<head>
+    <title>User details</title>
+</head>
+<body>
 
-<p>Name: {{$user->name}}</p>
-<p>e-mail: {{$user->email}}</p>
+<h1>{{$user->name}}</h1>
+<p>{{$user->email}}</p>
+{{--<p>{{$user->}}</p>--}}
+</body>
+
+</html>
